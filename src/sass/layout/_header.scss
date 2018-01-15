@@ -8,7 +8,9 @@ header {
     -webkit-background-size: cover;
     background-position: center center;
     min-height: 600px;
+    margin-top: -25px;
     .header-text {
+        padding-top: 105px;
         h1 {
             font-size: 62px;
             text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
@@ -36,6 +38,7 @@ header {
         }
     }
     .get-online {
+        padding-top: 40px;
         display: flex;
         justify-content: center;
         a {

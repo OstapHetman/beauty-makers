@@ -389,18 +389,56 @@ template {
 [hidden] {
   display: none; }
 
+nav.navbar .top-nav {
+  background-color: #000;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between; }
+  nav.navbar .top-nav .left h3 {
+    color: #FFFFFF;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400; }
+  nav.navbar .top-nav .right h3 {
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 34px;
+    line-height: 41px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400; }
+  nav.navbar .top-nav .right p {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400; }
+    nav.navbar .top-nav .right p span {
+      color: #FF0066; }
+
 nav.navbar .first-logo {
   display: none; }
 
-nav.navbar .second-logo img {
-  border-style: solid;
-  border-width: 3px;
-  border-color: #000000;
-  background-color: #fff;
-  padding: 7px; }
+nav.navbar .second-logo {
+  margin-top: -105px; }
+  nav.navbar .second-logo img {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000000;
+    background-color: #fff;
+    padding: 7px; }
 
-nav.navbar #navbar ul li a {
-  color: #000; }
+nav.navbar #navbar {
+  position: absolute; }
+  nav.navbar #navbar ul li a {
+    text-shadow: 0px 0px 15px #FFFFFF, 0px 0px 15px #FFFFFF;
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: open-sans, sans-serif;
+    font-weight: 600; }
 
 nav.navbar .dropdown-submenu {
   position: relative; }
@@ -452,18 +490,21 @@ header {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-position: center center;
-  min-height: 600px; }
-  header .header-text h1 {
-    font-size: 62px;
-    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-    text-align: center;
-    color: #FFFFFF;
-    letter-spacing: 4px;
-    font-family: open-sans, sans-serif;
-    font-weight: 600; }
-    header .header-text h1 span {
-      font-size: 38px;
-      line-height: 57px; }
+  min-height: 600px;
+  margin-top: -25px; }
+  header .header-text {
+    padding-top: 105px; }
+    header .header-text h1 {
+      font-size: 62px;
+      text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      color: #FFFFFF;
+      letter-spacing: 4px;
+      font-family: open-sans, sans-serif;
+      font-weight: 600; }
+      header .header-text h1 span {
+        font-size: 38px;
+        line-height: 57px; }
   header .under-head-text h3 {
     font-size: 38px;
     font-weight: 600;
@@ -474,6 +515,7 @@ header {
     text-align: center;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); }
   header .get-online {
+    padding-top: 40px;
     display: flex;
     justify-content: center; }
     header .get-online a {
