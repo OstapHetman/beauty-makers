@@ -1,0 +1,29 @@
+header.blog {
+    margin-top: 48px;
+    min-height: 300px;
+    .row {
+        padding-top: 52px;
+    }
+    h1 {
+        text-align: center;
+        font-size: 72px;
+        line-height: 86px;
+        color: #FFFFFF;
+        letter-spacing: 0px;
+        font-family: open-sans, sans-serif;
+        font-weight: 600;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #FFFFFF;
+        margin: 0 auto;
+        max-width: 525px;
+    }
+    p {
+        color: #FF0066;
+        text-align: center;
+        font-size: 48px;
+        line-height: 58px;
+        font-family: 'Good Vibes Pro_5';
+        font-weight: 400;
+    }
+}

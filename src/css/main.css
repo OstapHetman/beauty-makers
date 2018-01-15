@@ -389,6 +389,10 @@ template {
 [hidden] {
   display: none; }
 
+@font-face {
+  font-family: "Good Vibes Pro_5";
+  src: url("../fonts/goodvibespro.woff") format("woff"); }
+
 nav.navbar .top-nav {
   background-color: #000;
   min-height: 100px;
@@ -421,7 +425,8 @@ nav.navbar .first-logo {
   display: none; }
 
 nav.navbar .second-logo {
-  margin-top: -105px; }
+  margin-top: -105px;
+  margin-left: 0 !important; }
   nav.navbar .second-logo img {
     border-style: solid;
     border-width: 3px;
@@ -431,6 +436,13 @@ nav.navbar .second-logo {
 
 nav.navbar #navbar {
   position: absolute; }
+  nav.navbar #navbar ul li.active {
+    background-color: #000;
+    border-style: solid;
+    border-color: #FF0066;
+    border-width: 0px 0px 3px; }
+    nav.navbar #navbar ul li.active a {
+      color: #fff; }
   nav.navbar #navbar ul li a {
     text-shadow: 0px 0px 15px #FFFFFF, 0px 0px 15px #FFFFFF;
     color: #000000;
@@ -439,6 +451,11 @@ nav.navbar #navbar {
     line-height: 19px;
     font-family: open-sans, sans-serif;
     font-weight: 600; }
+    nav.navbar #navbar ul li a:hover {
+      background-color: #000;
+      color: #fff; }
+  nav.navbar #navbar .dropdown-menu {
+    border-radius: unset !important; }
 
 nav.navbar .dropdown-submenu {
   position: relative; }
@@ -902,7 +919,10 @@ header {
   background-position: unset; }
 
 #about-us {
-  margin-top: 130px; }
+  margin-top: 130px;
+  background-color: white;
+  position: relative;
+  top: 7.2vh; }
   #about-us .row:nth-child(2) {
     display: flex;
     justify-content: center; }
@@ -931,8 +951,22 @@ header {
   #about-us .carousel-control {
     color: #000;
     text-shadow: unset; }
-  #about-us .carousel-caption p {
-    color: #000; }
+  #about-us .carousel-caption {
+    left: 13%; }
+    #about-us .carousel-caption p {
+      text-align: center;
+      font-size: 16px;
+      line-height: 22px;
+      font-family: open-sans, sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      color: #000; }
+    #about-us .carousel-caption small {
+      font-size: 14px;
+      text-align: center;
+      color: #7F7F7F;
+      font-style: italic;
+      display: block; }
   #about-us .carousel-indicators li {
     border: 1px solid #000; }
   #about-us .carousel-indicators .active {
@@ -943,13 +977,18 @@ header {
     text-align: left; }
   #about-us .carousel {
     top: 30vh; }
+  #about-us #carousel2 .carousel-inner > .item.active {
+    height: 300px; }
+  #about-us #carousel2 .carousel-control {
+    background-image: unset; }
 
 .more-information {
   width: 460px;
-  padding: 97px 60px 97px;
+  padding: 70px 60px 74px;
   background-color: rgba(255, 255, 255, 0.7);
   position: absolute;
-  left: 18.9vw; }
+  left: 18.9vw;
+  margin-top: 48px; }
   .more-information h4 {
     text-align: center;
     font-size: 30px;
@@ -1077,6 +1116,50 @@ footer {
     font-family: open-sans, sans-serif;
     font-weight: 400;
     padding-left: 40px; }
+
+header.blog {
+  margin-top: 48px;
+  min-height: 300px; }
+  header.blog .row {
+    padding-top: 52px; }
+  header.blog h1 {
+    text-align: center;
+    font-size: 72px;
+    line-height: 86px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    font-family: open-sans, sans-serif;
+    font-weight: 600;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FFFFFF;
+    margin: 0 auto;
+    max-width: 525px; }
+  header.blog p {
+    color: #FF0066;
+    text-align: center;
+    font-size: 48px;
+    line-height: 58px;
+    font-family: 'Good Vibes Pro_5';
+    font-weight: 400; }
+
+#blog {
+  min-height: 550px; }
+  #blog h4 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #000;
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  #blog .social {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none; }
+    #blog .social li {
+      margin-right: 10px; }
 
 /*================ 
     Media Query 

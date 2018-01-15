@@ -40,6 +40,7 @@ nav.navbar {
     }
     .second-logo {
         margin-top: -105px;
+        margin-left: 0 !important;
         img {
             border-style: solid;
             border-width: 3px;
@@ -52,6 +53,15 @@ nav.navbar {
         position: absolute;
         ul {
             li {
+                &.active {
+                    background-color: #000;
+                    border-style: solid;
+                    border-color: #FF0066;
+                    border-width: 0px 0px 3px;
+                    a {
+                        color: #fff;
+                    }
+                }
                 a {
                     text-shadow: 0px 0px 15px #FFFFFF, 0px 0px 15px #FFFFFF;
                     color: #000000;
@@ -60,8 +70,15 @@ nav.navbar {
                     line-height: 19px;
                     font-family: open-sans, sans-serif;
                     font-weight: 600;
+                    &:hover {
+                        background-color: #000;
+                        color: #fff;
+                    }
                 }
             }
+        }
+        .dropdown-menu {
+            border-radius: unset !important;
         }
     }
     .dropdown-submenu {

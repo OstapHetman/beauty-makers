@@ -1,5 +1,8 @@
 #about-us {
     margin-top: 130px;
+    background-color: white;
+    position: relative;
+    top: 7.2vh;
     .row:nth-child(2) {
         display: flex;
         justify-content: center;
@@ -36,8 +39,22 @@
         text-shadow: unset;
     }
     .carousel-caption {
+        left: 13%;
         p {
+            text-align: center;
+            font-size: 16px;
+            line-height: 22px;
+            font-family: open-sans, sans-serif;
+            font-weight: 400;
+            font-style: italic;
             color: #000;
+        }
+        small {
+            font-size: 14px;
+            text-align: center;
+            color: #7F7F7F;
+            font-style: italic;
+            display: block;
         }
     }
     .carousel-indicators li {
@@ -53,5 +70,13 @@
     }
     .carousel {
         top: 30vh;
+    }
+    #carousel2 {
+        .carousel-inner>.item.active {
+            height: 300px;
+        }
+        .carousel-control {
+            background-image: unset;
+        }
     }
 }
