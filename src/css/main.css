@@ -839,6 +839,86 @@ header {
   #about-us .carousel {
     top: 30vh; }
 
+footer {
+  min-height: 213px;
+  background-color: #000; }
+  footer .row:first-child {
+    padding-top: 15px; }
+  footer h4 {
+    color: #FF0066;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    padding-left: 40px;
+    font-size: 14px; }
+  footer ul {
+    list-style: none; }
+    footer ul li {
+      color: #FFFFFF;
+      font-size: 12px;
+      line-height: 18px;
+      font-family: open-sans, sans-serif;
+      font-weight: 400; }
+  footer .without-padding {
+    padding-left: 0; }
+  footer form .col-md-6:first-child {
+    padding-left: 0; }
+  footer form button.btn {
+    border-style: solid;
+    background-color: #FF0066;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+    line-height: 10px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    border-radius: 0px !important;
+    width: 100%;
+    height: 24px;
+    margin-top: 15px; }
+  footer form .form-group {
+    margin-bottom: 0; }
+    footer form .form-group label {
+      color: #FFFFFF;
+      text-align: left;
+      font-size: 10px;
+      line-height: 10px;
+      font-family: open-sans, sans-serif;
+      font-weight: 400;
+      margin-bottom: 0px; }
+    footer form .form-group input::placeholder {
+      color: #000000;
+      font-size: 10px;
+      line-height: 10px;
+      font-family: open-sans, sans-serif;
+      font-weight: 300;
+      font-style: italic; }
+    footer form .form-group textarea::placeholder {
+      color: #000000;
+      font-size: 10px;
+      line-height: 10px;
+      font-family: open-sans, sans-serif;
+      font-weight: 300;
+      font-style: italic; }
+    footer form .form-group textarea {
+      padding: 0;
+      padding-top: 5px;
+      padding-left: 4px;
+      border-radius: 0;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #FF0066;
+      background-color: #C9C9C9; }
+    footer form .form-group input {
+      padding: 0;
+      padding-left: 4px;
+      padding-bottom: 4px;
+      height: 24px;
+      border-radius: 0;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #FF0066;
+      background-color: #C9C9C9; }
+
 /*================ 
     Media Query 
    =============*/
