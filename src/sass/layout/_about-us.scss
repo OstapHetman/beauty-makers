@@ -1,0 +1,57 @@
+#about-us {
+    margin-top: 130px;
+    .row:nth-child(2) {
+        display: flex;
+        justify-content: center;
+    }
+    .underline {
+        border-bottom: 3px #FF0066 solid;
+    }
+    h3 {
+        text-align: center;
+        font-size: 36px;
+        color: #000000;
+        line-height: 22px;
+        font-family: open-sans, sans-serif;
+    }
+    .description {
+        margin-top: 20px;
+        max-width: 560px;
+        p {
+            text-align: center;
+        }
+    }
+    .left-side {
+        background-image: url('../img/about-us/thumb-up.png');
+        background-repeat: no-repeat;
+        background-size: auto;
+        max-width: 600px;
+        height: 500px;
+        margin-top: 25px;
+        background-size: cover;
+        background-position: center;
+    }
+    .carousel-control {
+        color: #000;
+        text-shadow: unset;
+    }
+    .carousel-caption {
+        p {
+            color: #000;
+        }
+    }
+    .carousel-indicators li {
+        border: 1px solid #000;
+    }
+    .carousel-indicators .active {
+        background-color: #000;
+    }
+    .carousel-caption {
+        color: #000;
+        text-shadow: unset;
+        text-align: left;
+    }
+    .carousel {
+        top: 30vh;
+    }
+}

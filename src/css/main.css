@@ -796,6 +796,49 @@ header {
   background-image: url("../img/gallery/06.jpg");
   background-position: unset; }
 
+#about-us {
+  margin-top: 130px; }
+  #about-us .row:nth-child(2) {
+    display: flex;
+    justify-content: center; }
+  #about-us .underline {
+    border-bottom: 3px #FF0066 solid; }
+  #about-us h3 {
+    text-align: center;
+    font-size: 36px;
+    color: #000000;
+    line-height: 22px;
+    font-family: open-sans, sans-serif; }
+  #about-us .description {
+    margin-top: 20px;
+    max-width: 560px; }
+    #about-us .description p {
+      text-align: center; }
+  #about-us .left-side {
+    background-image: url("../img/about-us/thumb-up.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    max-width: 600px;
+    height: 500px;
+    margin-top: 25px;
+    background-size: cover;
+    background-position: center; }
+  #about-us .carousel-control {
+    color: #000;
+    text-shadow: unset; }
+  #about-us .carousel-caption p {
+    color: #000; }
+  #about-us .carousel-indicators li {
+    border: 1px solid #000; }
+  #about-us .carousel-indicators .active {
+    background-color: #000; }
+  #about-us .carousel-caption {
+    color: #000;
+    text-shadow: unset;
+    text-align: left; }
+  #about-us .carousel {
+    top: 30vh; }
+
 /*================ 
     Media Query 
    =============*/
