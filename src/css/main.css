@@ -767,7 +767,7 @@ header {
   padding-top: 105px; }
 
 #gallery .one, #gallery .two, #gallery .three, #gallery .four, #gallery .five, #gallery .six {
-  background-image: url("../img/gallery/01.jpg");
+  background: url("../img/gallery/01.jpg");
   background-repeat: no-repeat;
   background-size: auto;
   width: 330px;
@@ -775,6 +775,15 @@ header {
   margin-top: 25px;
   background-size: cover;
   background-position: center; }
+  #gallery .one i, #gallery .two i, #gallery .three i, #gallery .four i, #gallery .five i, #gallery .six i {
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    top: 23vh;
+    left: 10vw;
+    display: none; }
+  #gallery .one:hover i, #gallery .two:hover i, #gallery .three:hover i, #gallery .four:hover i, #gallery .five:hover i, #gallery .six:hover i {
+    display: block; }
 
 #gallery .two {
   background-image: url("../img/gallery/02.jpg");
@@ -841,10 +850,9 @@ header {
 
 .more-information {
   width: 460px;
-  padding: 115px 60px 115px;
+  padding: 97px 60px 97px;
   background-color: rgba(255, 255, 255, 0.7);
-  position: relative;
-  top: 76vh;
+  position: absolute;
   left: 18.9vw; }
   .more-information h4 {
     text-align: center;
@@ -875,7 +883,7 @@ header {
       line-height: 36px; }
 
 iframe .i4ewOd-pzNkMb-haAclf {
-  display: none !important; }
+  display: none; }
 
 footer {
   min-height: 213px;
@@ -890,6 +898,8 @@ footer {
     font-weight: 400;
     padding-left: 40px;
     font-size: 14px; }
+  footer h4:nth-child(3) {
+    padding-top: 10px; }
   footer ul {
     list-style: none; }
     footer ul li {
@@ -901,6 +911,11 @@ footer {
   footer .without-padding {
     padding-left: 0;
     margin-bottom: 8px; }
+  footer .social {
+    display: flex;
+    flex-wrap: wrap; }
+    footer .social li {
+      margin-right: 10px; }
   footer form .col-md-6:first-child {
     padding-left: 0; }
   footer form button.btn {

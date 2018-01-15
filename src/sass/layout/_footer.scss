@@ -14,6 +14,9 @@ footer {
         padding-left: 40px;
         font-size: 14px;
     }
+    h4:nth-child(3) {
+        padding-top: 10px;
+    }
     ul {
         list-style: none;
         li {
@@ -27,6 +30,13 @@ footer {
     .without-padding {
         padding-left: 0;
         margin-bottom: 8px;
+    }
+    .social {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            margin-right: 10px;
+        }
     }
     form {
         .col-md-6:first-child {

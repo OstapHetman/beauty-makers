@@ -12,7 +12,7 @@
         padding-top: 105px;
     }
     .one {
-        background-image: url('../img/gallery/01.jpg');
+        background: url('../img/gallery/01.jpg');
         background-repeat: no-repeat;
         background-size: auto;
         width: 330px;
@@ -20,6 +20,17 @@
         margin-top: 25px;
         background-size: cover;
         background-position: center;
+        i {
+            color: white;
+            font-size: 80px;
+            position: absolute;
+            top: 23vh;
+            left: 10vw;
+            display: none;
+        }
+        &:hover i {
+            display: block;
+        }
     }
     .two {
         @extend .one;
