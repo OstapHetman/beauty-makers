@@ -754,6 +754,48 @@ header {
     left: 38%;
     padding-bottom: 30px; } }
 
+#gallery .underline {
+  border-bottom: 3px #FF0066 solid; }
+
+#gallery h3 {
+  text-align: center;
+  font-size: 36px;
+  color: #000000;
+  line-height: 22px;
+  font-family: open-sans, sans-serif;
+  font-weight: 700;
+  padding-top: 105px; }
+
+#gallery .one, #gallery .two, #gallery .three, #gallery .four, #gallery .five, #gallery .six {
+  background-image: url("../img/gallery/01.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 330px;
+  height: 330px;
+  margin-top: 25px;
+  background-size: cover;
+  background-position: center; }
+
+#gallery .two {
+  background-image: url("../img/gallery/02.jpg");
+  background-position: unset; }
+
+#gallery .three {
+  background-image: url("../img/gallery/03.jpg");
+  background-position: unset; }
+
+#gallery .four {
+  background-image: url("../img/gallery/04.jpg");
+  background-position: unset; }
+
+#gallery .five {
+  background-image: url("../img/gallery/05.jpg");
+  background-position: unset; }
+
+#gallery .six {
+  background-image: url("../img/gallery/06.jpg");
+  background-position: unset; }
+
 /*================ 
     Media Query 
    =============*/
