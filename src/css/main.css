@@ -713,6 +713,27 @@ header {
 #choose-us .bottom-block {
   margin-top: 40px; }
 
+#proffesionals .underline {
+  border-bottom: 3px #FF0066 solid; }
+
+#proffesionals h3 {
+  text-align: center;
+  font-size: 36px;
+  color: #000000;
+  line-height: 22px;
+  font-family: open-sans, sans-serif;
+  font-weight: 700;
+  padding-top: 105px; }
+
+#proffesionals .carousel-inner {
+  max-width: 800px;
+  margin: 0 auto; }
+
+#proffesionals .carousel-control {
+  background-image: unset; }
+  #proffesionals .carousel-control span {
+    color: #000; }
+
 /*================ 
     Media Query 
    =============*/
