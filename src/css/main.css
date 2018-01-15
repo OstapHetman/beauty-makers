@@ -725,14 +725,34 @@ header {
   font-weight: 700;
   padding-top: 105px; }
 
+#proffesionals .carousel-indicators li {
+  border: 1px solid #000; }
+
+#proffesionals .carousel-indicators .active {
+  background-color: #000; }
+
+#proffesionals .carousel-caption {
+  color: #000;
+  text-shadow: unset;
+  text-align: left; }
+
 #proffesionals .carousel-inner {
   max-width: 800px;
   margin: 0 auto; }
+  #proffesionals .carousel-inner .item img {
+    width: 220px;
+    height: 350px; }
 
 #proffesionals .carousel-control {
   background-image: unset; }
   #proffesionals .carousel-control span {
     color: #000; }
+
+@media screen and (min-width: 768px) {
+  .carousel-caption {
+    right: 12%;
+    left: 38%;
+    padding-bottom: 30px; } }
 
 /*================ 
     Media Query 
