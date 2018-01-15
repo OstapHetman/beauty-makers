@@ -2,7 +2,10 @@ footer {
     min-height: 213px;
     background-color: #000;
     .row:first-child {
-        padding-top: 15px;
+        padding-top: 10px;
+    }
+    .row:last-child {
+        padding-top: 10px;
     }
     h4 {
         color: #FF0066;
@@ -23,6 +26,7 @@ footer {
     }
     .without-padding {
         padding-left: 0;
+        margin-bottom: 8px;
     }
     form {
         .col-md-6:first-child {
@@ -91,5 +95,16 @@ footer {
                 background-color: #C9C9C9;
             }
         }
+    }
+    .reserved {
+        color: #FFFFFF;
+        font-size: 12px;
+        line-height: 18px;
+        font-family: open-sans, sans-serif;
+        font-weight: 400;
+        padding-left: 40px;
+    }
+    .by {
+        @extend .reserved;
     }
 }

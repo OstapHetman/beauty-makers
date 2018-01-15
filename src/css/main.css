@@ -839,11 +839,51 @@ header {
   #about-us .carousel {
     top: 30vh; }
 
+.more-information {
+  width: 460px;
+  padding: 115px 60px 115px;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  top: 76vh;
+  left: 18.9vw; }
+  .more-information h4 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 39px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    color: #000; }
+    .more-information h4 span {
+      color: #FF0066;
+      font-weight: 700; }
+  .more-information p {
+    font-size: 14px;
+    line-height: 17px;
+    word-wrap: break-word;
+    text-align: center;
+    padding: 20px 0px 10px 0px; }
+  .more-information h2 {
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 1px;
+    line-height: 43px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    color: #000; }
+    .more-information h2 span {
+      font-size: 30px;
+      line-height: 36px; }
+
+iframe .i4ewOd-pzNkMb-haAclf {
+  display: none !important; }
+
 footer {
   min-height: 213px;
   background-color: #000; }
   footer .row:first-child {
-    padding-top: 15px; }
+    padding-top: 10px; }
+  footer .row:last-child {
+    padding-top: 10px; }
   footer h4 {
     color: #FF0066;
     font-family: open-sans, sans-serif;
@@ -859,7 +899,8 @@ footer {
       font-family: open-sans, sans-serif;
       font-weight: 400; }
   footer .without-padding {
-    padding-left: 0; }
+    padding-left: 0;
+    margin-bottom: 8px; }
   footer form .col-md-6:first-child {
     padding-left: 0; }
   footer form button.btn {
@@ -918,6 +959,13 @@ footer {
       border-width: 1px;
       border-color: #FF0066;
       background-color: #C9C9C9; }
+  footer .reserved, footer .by {
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    padding-left: 40px; }
 
 /*================ 
     Media Query 
