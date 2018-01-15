@@ -389,6 +389,60 @@ template {
 [hidden] {
   display: none; }
 
+nav.navbar .first-logo {
+  display: none; }
+
+nav.navbar .second-logo img {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #000000;
+  background-color: #fff;
+  padding: 7px; }
+
+nav.navbar #navbar ul li a {
+  color: #000; }
+
+nav.navbar .dropdown-submenu {
+  position: relative; }
+
+nav.navbar .dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px; }
+
+nav.navbar .dropdown-submenu:hover > .dropdown-menu {
+  display: block; }
+
+nav.navbar .dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px; }
+
+nav.navbar .dropdown-submenu:hover > a:after {
+  border-left-color: #fff; }
+
+nav.navbar .dropdown-submenu.pull-left {
+  float: none; }
+
+nav.navbar .dropdown-submenu.pull-left > .dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px; }
+
 header {
   background-image: url("../img/header/home-bg.jpg");
   background-repeat: no-repeat;
