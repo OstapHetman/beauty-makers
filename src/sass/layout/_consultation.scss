@@ -1,0 +1,46 @@
+#consultation {
+    h4.title {
+        padding-top: 35px;
+        text-align: left;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        letter-spacing: 1px;
+        font-family: open-sans, sans-serif;
+        font-weight: 600;
+        span {
+            color: #FF0066;
+        }
+    }
+    .form-group {
+        input::placeholder {
+            color: #7F7F7F;
+            font-family: open-sans, sans-serif;
+            font-style: italic;
+            font-weight: 400;
+        }
+        input {
+            border: 0;
+            border-bottom: 1px red solid;
+            box-shadow: unset !important;
+            border-width: 0px 0px 2px;
+            border-color: #000;
+            border-radius: 0;
+        }
+    }
+    .button-consulting {
+        button {
+            color: #000000;
+            text-align: center;
+            line-height: 14px;
+            font-family: open-sans, sans-serif;
+            font-weight: 400;
+            border-style: solid;
+            border-width: 2px;
+            border-color: #FF0066;
+            background-color: #FFFFFF;
+            border-radius: 0;
+            padding: 7px 40px 7px 40px;
+        }
+    }
+}

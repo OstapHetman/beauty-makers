@@ -1,0 +1,130 @@
+#choose-services {
+    margin-top: 75px;
+    .row:nth-child(2) {
+        display: flex;
+        justify-content: center;
+    }
+    .underline {
+        border-bottom: 3px #FF0066 solid;
+    }
+    h3 {
+        text-align: center;
+        font-size: 36px;
+        color: #000000;
+        line-height: 22px;
+        font-family: open-sans, sans-serif;
+        font-weight: 700;
+    }
+    .description {
+        margin-top: 20px;
+        max-width: 860px;
+        p {
+            text-align: center;
+        }
+    }
+    .block-head {
+        h3 {
+            color: #000000;
+            text-align: center;
+            font-size: 18px;
+            line-height: 22px;
+            font-family: open-sans, sans-serif;
+            font-weight: 700;
+            padding-top: 10px;
+        }
+    }
+    .not-enough {
+        .name {
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .name {
+        border-style: solid;
+        border-width: 1px;
+        border-color: #000000;
+        background-color: #666666;
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        p {
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 20px;
+            line-height: 24px;
+            font-family: open-sans, sans-serif;
+            font-weight: 400;
+            padding: 15px 0px 5px 0px;
+        }
+    }
+    .makiyaz {
+        background-image: url('../img/services/01.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-position: center center;
+        height: 240px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #C9C9C9;
+        margin-top: 35px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        &:hover {
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+        }
+    }
+    .prichesky {
+        @extend .makiyaz;
+        background-image: url('../img/services/02.png');
+    }
+    .dnevnoy {
+        @extend .makiyaz;
+        background-image: url('../img/services/03.jpg');
+    }
+    .vechernyi {
+        @extend .makiyaz;
+        background-image: url('../img/services/04.png');
+    }
+    .brovy {
+        @extend .makiyaz;
+        background-image: url('../img/services/05.jpg');
+    }
+    .dlyi-sebyi {
+        @extend .makiyaz;
+        background-image: url('../img/services/06.jpg');
+    }
+    .svadebnyi {
+        @extend .makiyaz;
+        background-image: url('../img/services/07.png');
+    }
+    .preobrazhenyi {
+        @extend .makiyaz;
+        background-image: url('../img/services/08.png');
+    }
+    .not-enough {
+        @extend .makiyaz;
+        background-image: url('../img/services/09.png');
+    }
+    .certificate {
+        @extend .makiyaz;
+        background-image: url('../img/services/10.png');
+    }
+    .view-more {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        p {
+            text-decoration: underline;
+            color: #000;
+            text-align: center;
+            font-size: 18px;
+            line-height: 45px;
+            font-family: open-sans, sans-serif;
+            font-weight: 400;
+        }
+    }
+}
