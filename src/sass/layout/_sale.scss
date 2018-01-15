@@ -1,0 +1,38 @@
+#sale {
+    margin-top: 250px;
+    height: 289px;
+    background-color: #000000;
+    .left-side {
+        max-height: 289px;
+    }
+    img {
+        max-width: 340px;
+        position: relative;
+        top: -29vh;
+    }
+    .right-side {
+        .text-block {
+            padding-top: 35px;
+        }
+        p {
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 24px;
+            line-height: 34px;
+            font-family: open-sans, sans-serif;
+            font-weight: 400;
+            span {
+                font-size: 36px;
+                font-weight: 800;
+            }
+        }
+    }
+    .form {
+        box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
+        border-style: solid;
+        border-width: 5px;
+        border-color: #FFFFFF;
+        max-width: 520px;
+        top: 23vh;
+    }
+}

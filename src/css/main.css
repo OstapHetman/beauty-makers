@@ -621,6 +621,91 @@ header {
   display: block;
   margin: 0 auto; }
 
+#sale {
+  margin-top: 250px;
+  height: 289px;
+  background-color: #000000; }
+  #sale .left-side {
+    max-height: 289px; }
+  #sale img {
+    max-width: 340px;
+    position: relative;
+    top: -29vh; }
+  #sale .right-side .text-block {
+    padding-top: 35px; }
+  #sale .right-side p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    line-height: 34px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400; }
+    #sale .right-side p span {
+      font-size: 36px;
+      font-weight: 800; }
+  #sale .form {
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFFFFF;
+    max-width: 520px;
+    top: 23vh; }
+
+#choose-us .underline {
+  border-bottom: 3px #FF0066 solid; }
+
+#choose-us h3 {
+  text-align: center;
+  font-size: 36px;
+  color: #000000;
+  line-height: 22px;
+  font-family: open-sans, sans-serif;
+  font-weight: 700;
+  padding-top: 105px; }
+
+#choose-us p {
+  text-align: center;
+  font-size: 24px;
+  line-height: 29px;
+  font-family: open-sans, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 40px; }
+
+#choose-us .icon img {
+  max-width: 288px;
+  margin: 0 auto; }
+
+#choose-us .right-icons {
+  display: flex;
+  flex-wrap: wrap; }
+  #choose-us .right-icons .col-md-6 div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; }
+  #choose-us .right-icons img {
+    max-width: 55px; }
+  #choose-us .right-icons p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+    max-width: 250px; }
+  #choose-us .right-icons b {
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+    color: #000;
+    display: block; }
+
+#choose-us .bottom-block {
+  margin-top: 40px; }
+
 /*================ 
     Media Query 
    =============*/
