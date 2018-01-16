@@ -55,6 +55,13 @@ header {
             background-color: transparent;
             text-decoration: none;
             padding: 13px;
+            &:hover {
+                background-color: #FF0066;
+                color: #FFFFFF;
+            }
+            &:focus {
+                outline: 0;
+            }
         }
     }
 }

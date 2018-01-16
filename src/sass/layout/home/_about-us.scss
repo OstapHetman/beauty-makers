@@ -1,5 +1,5 @@
 #about-us {
-    margin-top: 130px;
+    margin-top: 100px;
     background-color: white;
     position: relative;
     top: 7.2vh;
@@ -34,6 +34,30 @@
         background-size: cover;
         background-position: center;
     }
+    .right-side {
+        .feedback-btn {
+            display: flex;
+            margin-top: 100px;
+            margin-left: 14vw;
+            a {
+                color: #fff;
+                text-align: center;
+                font-size: 14px;
+                letter-spacing: 1px;
+                font-family: open-sans, sans-serif;
+                font-weight: 600;
+                border: 3px #FF0066 solid;
+                background-color: #FF0066;
+                padding: 10px 20px 10px 20px;
+                &:hover {
+                    background-color: #fff;
+                    border: 3px #FF0066 solid;
+                    color: #000;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
     .carousel-control {
         color: #000;
         text-shadow: unset;
@@ -57,11 +81,8 @@
             display: block;
         }
     }
-    .carousel-indicators li {
-        border: 1px solid #000;
-    }
-    .carousel-indicators .active {
-        background-color: #000;
+    .carousel-indicators {
+        display: none;
     }
     .carousel-caption {
         color: #000;
@@ -69,7 +90,7 @@
         text-align: left;
     }
     .carousel {
-        top: 30vh;
+        top: 12vh;
     }
     #carousel2 {
         .carousel-inner>.item.active {

@@ -40,7 +40,14 @@
             border-color: #FF0066;
             background-color: #FFFFFF;
             border-radius: 0;
-            padding: 7px 40px 7px 40px;
+            padding: 7px 50px 7px 50px;
+            &:hover {
+                background-color: #FF0066;
+                color: #FFFFFF;
+            }
+            &:focus {
+                outline: 0;
+            }
         }
     }
 }

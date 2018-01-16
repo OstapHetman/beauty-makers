@@ -20,6 +20,7 @@
         margin-top: 25px;
         background-size: cover;
         background-position: center;
+        cursor: pointer;
         i {
             color: white;
             font-size: 80px;
@@ -30,6 +31,14 @@
         }
         &:hover i {
             display: block;
+        }
+        &:hover::before {
+            content: '';
+            width: 330px;
+            height: 330px;
+            background-color: #000;
+            opacity: 0.5;
+            position: absolute;
         }
     }
     .two {

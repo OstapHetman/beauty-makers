@@ -4,6 +4,10 @@
         display: flex;
         justify-content: center;
     }
+    #show-hide-block-1,
+    #show-hide-block-2 {
+        display: none;
+    }
     .underline {
         border-bottom: 3px #FF0066 solid;
     }
@@ -20,9 +24,52 @@
         max-width: 860px;
         p {
             text-align: center;
+            color: #000000;
+        }
+    }
+    .block-head:nth-child(2) {
+        &:before {
+            content: '';
+            width: 158px;
+            background-color: #FF0066;
+            height: 1px;
+            display: block;
+            position: relative;
+            top: 6vh;
+        }
+        &:after {
+            content: '';
+            width: 155px;
+            background-color: #FF0066;
+            height: 1px;
+            display: block;
+            position: absolute;
+            top: 6vh;
+            right: 1.3vw;
         }
     }
     .block-head {
+        &:before {
+            content: '';
+            width: 170px;
+            color: #000;
+            background-color: #000;
+            height: 1px;
+            display: block;
+            position: relative;
+            top: 6vh;
+        }
+        &:after {
+            content: '';
+            width: 170px;
+            color: #000;
+            background-color: #000;
+            height: 1px;
+            display: block;
+            position: absolute;
+            top: 6vh;
+            right: 1.3vw;
+        }
         h3 {
             color: #000000;
             text-align: center;
@@ -31,6 +78,7 @@
             font-family: open-sans, sans-serif;
             font-weight: 700;
             padding-top: 10px;
+            margin-bottom: 0;
         }
     }
     .not-enough {
@@ -74,6 +122,7 @@
         display: flex;
         align-items: flex-end;
         justify-content: flex-start;
+        cursor: pointer;
         &:hover {
             box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
         }
@@ -117,7 +166,7 @@
     .view-more {
         padding-top: 10px;
         padding-bottom: 10px;
-        p {
+        a {
             text-decoration: underline;
             color: #000;
             text-align: center;
@@ -125,6 +174,8 @@
             line-height: 45px;
             font-family: open-sans, sans-serif;
             font-weight: 400;
+            display: block;
+            cursor: pointer;
         }
     }
 }

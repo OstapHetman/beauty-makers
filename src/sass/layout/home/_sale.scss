@@ -1,5 +1,5 @@
 #sale {
-    margin-top: 250px;
+    margin-top: 140px;
     height: 289px;
     background-color: #000000;
     .left-side {
@@ -11,6 +11,7 @@
         top: -29vh;
     }
     .right-side {
+        padding-right: 32px;
         .text-block {
             padding-top: 35px;
         }
@@ -33,6 +34,51 @@
         border-width: 5px;
         border-color: #FFFFFF;
         max-width: 520px;
-        top: 23vh;
+        position: absolute;
+        left: 39vw;
+        padding: 40px 50px;
+        margin-top: 145px;
+        background-color: #000;
+        .email {
+            padding-top: 10px;
+        }
+        .col-md-6 {
+            display: flex;
+            flex-direction: column;
+            button {
+                background-color: #FF0066;
+                color: #FFFFFF;
+                border-radius: unset;
+                margin-top: 19px;
+                padding: 2px;
+            }
+        }
+        .input-group {
+            display: flex;
+            label {
+                color: #FFFFFF;
+                text-align: left;
+                line-height: 14px;
+                font-family: open-sans, sans-serif;
+                font-weight: 400;
+            }
+            input {
+                width: 173px;
+                height: 26px;
+                border-radius: unset;
+                border-style: solid;
+                border-width: 1px;
+                border-color: #FF0066;
+                background-color: #F2F2F2;
+                &::placeholder {
+                    color: #C4C4C4;
+                    font-size: 10px;
+                    line-height: 10px;
+                    font-family: open-sans, sans-serif;
+                    font-weight: 300;
+                    font-style: italic;
+                }
+            }
+        }
     }
 }
