@@ -51,6 +51,11 @@
                 border-radius: unset;
                 margin-top: 19px;
                 padding: 2px;
+                &:hover {
+                    background-color: #000;
+                    color: #fff;
+                    border: 1px #FF0066 solid;
+                }
             }
         }
         .input-group {
@@ -77,6 +82,32 @@
                     font-family: open-sans, sans-serif;
                     font-weight: 300;
                     font-style: italic;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #sale {
+        margin-top: 0;
+        .left-side {
+            display: none;
+        }
+        .right-side {
+            padding-right: 0px;
+        }
+        .form {
+            display: flex;
+            flex-wrap: wrap;
+            position: static;
+            margin-top: 0;
+            margin: 0 auto;
+            .input-group {
+                display: flex;
+                flex-wrap: wrap;
+                input {
+                    width: 100%;
                 }
             }
         }

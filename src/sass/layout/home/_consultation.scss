@@ -51,3 +51,18 @@
         }
     }
 }
+
+@media screen and (max-width: 767px) {
+    #consultation {
+        h4.title {
+            font-size: 24px;
+            text-align: center;
+        }
+        form {
+            .button-consulting {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}

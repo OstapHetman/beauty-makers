@@ -1,4 +1,11 @@
 nav.navbar {
+    .navbar-toggle {
+        .icon-bar {
+            background-color: #FF0066;
+            width: 30px;
+            height: 4px;
+        }
+    }
     .top-nav {
         background-color: #000;
         min-height: 100px;
@@ -121,5 +128,31 @@ nav.navbar {
         -webkit-border-radius: 6px 0 6px 6px;
         -moz-border-radius: 6px 0 6px 6px;
         border-radius: 6px 0 6px 6px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    nav .navbar-header {
+        position: absolute;
+        right: 16px;
+    }
+    nav.navbar .top-nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    nav.navbar .top-nav .left h3 {
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+    nav.navbar .top-nav .right h3 {
+        font-size: 15px;
+        line-height: 0px;
+        text-align: center;
+    }
+    nav.navbar .top-nav .right p {
+        font-size: 15px;
+        line-height: 22px;
     }
 }

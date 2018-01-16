@@ -65,3 +65,25 @@ header {
         }
     }
 }
+
+@media screen and (max-width: 767px) {
+    header {
+        min-height: 530px;
+        .header-text {
+            padding-top: 35px;
+            h1 {
+                font-size: 40px;
+                span {
+                    font-size: 25px;
+                }
+            }
+        }
+        .under-head-text h3 {
+            font-size: 25px;
+            line-height: 40px;
+            br {
+                display: none;
+            }
+        }
+    }
+}

@@ -89,3 +89,36 @@
         }
     }
 }
+
+@media screen and (max-width: 991px) {
+    #steps {
+        .step-block {
+            .line-one:after {
+                display: none;
+            }
+            .line-two:after {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #steps {
+        .get-sale {
+            position: static;
+            display: block;
+        }
+        h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .icons-block img {
+            width: 100px;
+            height: auto;
+        }
+        .icons-block:last-child {
+            padding-top: 0;
+        }
+    }
+}

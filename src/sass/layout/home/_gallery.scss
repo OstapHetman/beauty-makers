@@ -67,3 +67,29 @@
         background-position: unset;
     }
 }
+
+@media screen and (max-width: 767px) {
+    #gallery {
+        .one,
+        .two,
+        .three,
+        .four,
+        .five,
+        .six {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            i {
+                top: unset;
+                left: unset;
+            }
+            &:before {
+                width: 95% !important;
+            }
+        }
+        h3 {
+            font-size: 24px;
+        }
+    }
+}

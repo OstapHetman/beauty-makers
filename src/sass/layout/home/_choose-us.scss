@@ -1,77 +1,97 @@
-    #choose-us {
-        .underline {
-            border-bottom: 3px #FF0066 solid;
+#choose-us {
+    .underline {
+        border-bottom: 3px #FF0066 solid;
+    }
+    h3 {
+        text-align: center;
+        font-size: 36px;
+        color: #000000;
+        line-height: 22px;
+        font-family: open-sans, sans-serif;
+        font-weight: 700;
+        padding-top: 105px;
+    }
+    p {
+        text-align: center;
+        font-size: 24px;
+        line-height: 29px;
+        font-family: open-sans, sans-serif;
+        font-weight: 400;
+        color: #000000;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .icon {
+        &.icon-two {
+            padding-top: 85px;
         }
-        h3 {
-            text-align: center;
-            font-size: 36px;
-            color: #000000;
-            line-height: 22px;
-            font-family: open-sans, sans-serif;
-            font-weight: 700;
-            padding-top: 105px;
+        img {
+            max-width: 288px;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+    }
+    .right-icons {
+        display: flex;
+        flex-wrap: wrap;
+        .col-md-6 div {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+        img {
+            border-style: solid;
+            border-width: 2px;
+            border-color: #FF0066;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            padding: 10px 10px;
         }
         p {
             text-align: center;
-            font-size: 24px;
-            line-height: 29px;
+            font-size: 16px;
+            line-height: 19px;
             font-family: open-sans, sans-serif;
             font-weight: 400;
-            color: #000000;
-            margin-top: 40px;
-            margin-bottom: 40px;
+            margin-top: 0;
+            max-width: 250px;
+            color: #000;
         }
-        .icon {
-            &.icon-two {
-                padding-top: 85px;
-            }
-            img {
-                max-width: 288px;
-                margin: 0 auto;
-                padding-top: 20px;
-            }
-        }
-        .right-icons {
-            display: flex;
-            flex-wrap: wrap;
-            .col-md-6 div {
-                display: flex;
-                align-items: center;
-                flex-direction: column;
-                justify-content: center;
-            }
-            img {
-                border-style: solid;
-                border-width: 2px;
-                border-color: #FF0066;
-                border-radius: 50%;
-                width: 70px;
-                height: 70px;
-                padding: 10px 10px;
-            }
-            p {
-                text-align: center;
-                font-size: 16px;
-                line-height: 19px;
-                font-family: open-sans, sans-serif;
-                font-weight: 400;
-                margin-top: 0;
-                max-width: 250px;
-                color: #000;
-            }
-            b {
-                text-align: center;
-                font-size: 18px;
-                line-height: 22px;
-                font-family: open-sans, sans-serif;
-                font-weight: 700;
-                color: #000;
-                display: block;
-                padding-top: 11px;
-                padding-bottom: 11px;
-            }
-        }
-        .bottom-block {
-            margin-top: 40px;
+        b {
+            text-align: center;
+            font-size: 18px;
+            line-height: 22px;
+            font-family: open-sans, sans-serif;
+            font-weight: 700;
+            color: #000;
+            display: block;
+            padding-top: 11px;
+            padding-bottom: 11px;
         }
     }
+    .bottom-block {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #choose-us {
+        .icon {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #choose-us {
+        .right-icons {
+            justify-content: center;
+        }
+        h3 {
+            font-size: 24px;
+            padding-top: 180px;
+        }
+    }
+}
