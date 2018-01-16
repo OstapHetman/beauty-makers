@@ -566,6 +566,56 @@
     </section>
     <!-- END PROFFESIONALS SECTION -->
 
+    <!-- START MODAL -->
+    <!-- The Modal -->
+    <div id="modalOne" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+    </div>
+
+    <!-- The Modal -->
+    <div id="modalTwo" class="modal">
+        <!-- The Close Button -->
+        <span class="close" id="close1">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img02">
+    </div>
+
+    <!-- The Modal -->
+    <div id="modalThree" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img03">
+    </div>
+
+    <!-- The Modal -->
+    <div id="modalFour" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img04">
+    </div>
+
+    <!-- The Modal -->
+    <div id="modalFive" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img05">
+    </div>
+
+    <!-- The Modal -->
+    <div id="modalSix" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img06">
+    </div>
+    <!-- END MODAL -->
+
     <!-- START GALLERY SECTION -->
     <section id="gallery">
         <div class="container">
@@ -576,35 +626,35 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <div class="one ">
+                    <div class="one" id="myImg01">
                         <i class="fa fa-search" aria-hidden="true"></i>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
-                    <div class="two ">
+                    <div class="two " id="myImg02">
                         <i class="fa fa-search" aria-hidden="true"></i>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <div class="three ">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <div class="four ">
+                    <div class="three " id="myImg03">
                         <i class="fa fa-search" aria-hidden="true"></i>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <div class="five ">
+                    <div class="four " id="myImg04">
                         <i class="fa fa-search" aria-hidden="true"></i>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <div class="six ">
+                    <div class="five " id="myImg05">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <div class="six " id="myImg06">
                         <i class="fa fa-search" aria-hidden="true"></i>
                     </div>
                 </div>
@@ -791,6 +841,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Main JavaScript File -->
     <script src="js/main.js"></script>
+    <script>
+        $('.carousel').carousel({
+            pause: true,
+            interval: false
+        });
+    </script>
 </body>
 
 </html>

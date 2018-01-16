@@ -1,3 +1,14 @@
+.navbar-collapse.collapse.in {
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    /* top: 28vh; */
+    height: 100vh;
+    .second-logo {
+        display: none;
+    }
+}
+
 nav.navbar {
     .navbar-toggle {
         .icon-bar {

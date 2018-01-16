@@ -393,6 +393,15 @@ template {
   font-family: "Good Vibes Pro_5";
   src: url("../fonts/goodvibespro.woff") format("woff"); }
 
+.navbar-collapse.collapse.in {
+  background-color: black;
+  opacity: 0.8;
+  width: 100%;
+  /* top: 28vh; */
+  height: 100vh; }
+  .navbar-collapse.collapse.in .second-logo {
+    display: none; }
+
 nav.navbar .navbar-toggle .icon-bar {
   background-color: #FF0066;
   width: 30px;
@@ -866,7 +875,7 @@ header {
 #steps .get-sale {
   display: inline-block;
   position: relative;
-  top: 25vh;
+  top: 22vh;
   left: 33vw; }
   #steps .get-sale span {
     font-weight: 700; }
@@ -899,7 +908,7 @@ header {
   #sale img {
     max-width: 340px;
     position: relative;
-    top: -29vh; }
+    top: -25vh; }
   #sale .right-side {
     padding-right: 32px; }
     #sale .right-side .text-block {
@@ -1097,8 +1106,10 @@ header {
   max-width: 800px;
   margin: 0 auto; }
   #proffesionals .carousel-inner .item img {
-    width: 192px;
-    height: 350px; }
+    width: unset;
+    height: 350px;
+    margin-left: 6%;
+    margin-bottom: 5%; }
   #proffesionals .carousel-inner .item h4 {
     font-size: 14px;
     font-weight: 600;
@@ -1122,7 +1133,7 @@ header {
     text-decoration: none;
     color: #000;
     border: 3px #000 solid;
-    padding: 5px 15px 5px 15px; }
+    padding: 8px 15px 5px 15px; }
     #proffesionals .carousel-inner .item a:hover {
       background-color: #000;
       color: #fff; }
@@ -1132,13 +1143,26 @@ header {
   #proffesionals .carousel-control span {
     color: #000; }
 
+#proffesionals .carousel-inner .item:before {
+  content: '';
+  background-color: #000;
+  width: 285px;
+  height: 285px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: 100px;
+  z-index: -1;
+  left: 0; }
+
 @media screen and (min-width: 768px) {
   .carousel-caption {
-    right: 12%;
-    left: 38%;
-    padding-bottom: 30px; } }
+    right: 5%;
+    left: 46%; } }
 
 @media screen and (max-width: 767px) {
+  #proffesionals .carousel-inner .item:before {
+    display: none; }
   #proffesionals h3 {
     font-size: 24px;
     margin-bottom: 30px; }
@@ -1496,6 +1520,76 @@ footer {
     padding-left: 0; }
   footer ul {
     padding-left: 0; } }
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s; }
+
+#myImg:hover {
+  opacity: 0.7; }
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 30;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */ }
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px; }
+
+@keyframes zoom {
+  from {
+    transform: scale(0); }
+  to {
+    transform: scale(1); } }
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 60px;
+  right: 320px;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  transition: 0.3s; }
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer; }
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%; } }
+
+@media only screen and (max-width: 767px) {
+  .close {
+    top: 45px;
+    right: 10%; } }
 
 header.blog {
   margin-top: 48px;

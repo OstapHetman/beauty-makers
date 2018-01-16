@@ -34,8 +34,10 @@
         margin: 0 auto;
         .item {
             img {
-                width: 192px;
+                width: unset;
                 height: 350px;
+                margin-left: 6%;
+                margin-bottom: 5%;
             }
             h4 {
                 font-size: 14px;
@@ -62,7 +64,7 @@
                 text-decoration: none;
                 color: #000;
                 border: 3px #000 solid;
-                padding: 5px 15px 5px 15px;
+                padding: 8px 15px 5px 15px;
                 &:hover {
                     background-color: #000;
                     color: #fff;
@@ -78,15 +80,30 @@
     }
 }
 
+#proffesionals .carousel-inner .item:before {
+    content: '';
+    background-color: #000;
+    width: 285px;
+    height: 285px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 100px;
+    z-index: -1;
+    left: 0;
+}
+
 @media screen and (min-width: 768px) {
     .carousel-caption {
-        right: 12%;
-        left: 38%;
-        padding-bottom: 30px;
+        right: 5%;
+        left: 46%;
     }
 }
 
 @media screen and (max-width: 767px) {
+    #proffesionals .carousel-inner .item:before {
+        display: none;
+    }
     #proffesionals {
         h3 {
             font-size: 24px;
